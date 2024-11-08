@@ -1,11 +1,7 @@
-img {
-  filter: grayscale(100%);
-  transition: filter 0.3s ease;
+body {
+  background-color: #e3d9d2  !important; 
 }
 
-img:hover {
-  filter: grayscale(0%);
-}
 
 .full-screen-height {
   min-height: 100vh;
@@ -24,4 +20,7 @@ svg {
   object-fit: cover;
   overflow: hidden;
   height: 225px;
+}
+.svg-hover:hover{
+  fill: white;
 }

@@ -1,7 +1,7 @@
 function NavBarSection() {
     return (
         <>
-        <nav class="navbar text-center navbar-expand-lg bg-body-tertiary sticky-top">
+        <nav class="navbar text-center navbar-expand-lg  sticky-top">
             <div class="  container-fluid ">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -11,9 +11,7 @@ function NavBarSection() {
                         <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="#home">Home</a>
                         </li>
-                        <li class="nav-item">
-                        <a class="nav-link" href="#projects">projects</a>
-                        </li>
+                        
                         <li class="nav-item">
                         <a class="nav-link" href="#contact">contact</a>
                         </li>

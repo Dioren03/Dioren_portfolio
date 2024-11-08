@@ -46,10 +46,10 @@ function ContactSection () {
             <body class=" d-flex align-items-center py-4 container">
     
 
-            <main class="form-signin col-12 col-sm-6 text-center m-auto mb-5 pb-5">
+            <main class=" col-12 col-sm-6 text-center m-auto mb-5 pb-5">
             <form ref={form} onSubmit={sendEmail} >
 
-                <h1 id="contact" class="text-center display-6 fw-bold text-body-emphasis lh-1 pb-3">Contact</h1>
+                <h1 id="contact" class="text-center display-6 fw-bold text-body-emphasis lh-1 pb-3">Contact me!</h1>
                 <div class="form-floating my-4 border-outline rounded ">
                 <input name="user_email" type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required/>
                 <label for="floatingInput">Email address</label>

@@ -1,16 +1,23 @@
+import profile from "../assets/img/dioren/Gi.gif";
+
 function AboutSection () {
     return (
         <>
-        <div class="full-screen-height px-4 pt-5 my-5 text-center border-bottom">
+        
 
-        <h1 class="text-center display-6 fw-bold text-body-emphasis lh-1 mb-3">About Me</h1>
-            <div class="col-lg-6 mx-auto">
-            <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-           
+
+        <div class="container">
+            <div class="full-screen-height row flex-lg-row-reverse justify-content-center align-items-center text-center g-5 py-3">
+            <div class="col-10 col-sm-8 col-lg-6">
+
+                <img src={profile} class="border-outline rounded-circle d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="400" height="500" loading="lazy" />
             </div>
-            <div class="overflow-hidden">
-            <div class="container px-5">
-                <img src="https://i.pinimg.com/originals/e5/bd/3a/e5bd3a2f2cf2f6f4dad0f531b92564be.gif" class="border-outline  img-fluid rounded-3 " alt="Example image" width="auto" height="200" loading="lazy"/>
+            <div class="col-lg-6 text-center">
+            <h1 class="text-center display-6 fw-bold text-body-emphasis lh-1 mb-3">About Me</h1>
+            <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">
+            Hello, I’m Dioren, or as my community knows me, Dominant Dioren. I’m a 22-year-old computer science student, fitness enthusiast, and content creator dedicated to merging the worlds of technology and self-improvement.                </p>
+            </div>
             </div>
             </div>
         </div>
